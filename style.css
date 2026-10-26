@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.cup {
+  margin: 15% 0 0 38%;
+  width: 20%;
+  border: 2px solid #dde0f7;
+  padding: 30px 30px;
+  border-radius: 25px;
+}
+.cup-title {
+  font-size: 25px;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 8px;
+}
+.cup-text {
+  font-size: 13px;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 10px;
+}
+.cup-cub {
+  border: 1px solid #e5e5f5;
+  background-color: #f0f0fc;
+  padding: 25px 30px;
+  border-radius: 20px;
+}
+.cup-cub-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+}
+.cup-cub-num {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  font-family: "Nunito", sans-serif;
+  color: #2e956b;
+}
+.cup1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+.cup1-btn {
+  padding: 8px 25px;
+  border-radius: 30px;
+  background: #f0f0fc;
+  border: 1px solid #6a6a99;
+}
+.cup1-btn1 {
+  padding: 5px 20px;
+  border-radius: 30px;
+  background: white;
+  border: 1px solid #6a6a99;
+}
+.cup1-btn2 {
+  border: 1px solid #6a6a99;
+  background: #f0f0fc;
+  border-radius: 30px;
+  padding: 7px 15px;
+}
